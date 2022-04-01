@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "archiveTool", "archiveTool\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "igArchiveLib", "..\igArchiveLib\igArchiveLib\igArchiveLib.csproj", "{096A3406-388D-4A54-AABC-A9F9C052515A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{844506EA-8619-4368-B0AF-465E9FAE1D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{096A3406-388D-4A54-AABC-A9F9C052515A} = {844506EA-8619-4368-B0AF-465E9FAE1D15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {012ABFF1-D102-4495-A87D-3A97978ED7B9}
