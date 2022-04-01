@@ -1,0 +1,3 @@
+[submodule "igArchiveLib"]
+	path = igArchiveLib
+	url = https://github.com/LG-RZ/igArchiveLib
