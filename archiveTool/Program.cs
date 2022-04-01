@@ -37,7 +37,7 @@ namespace archiveTool
             
             Console.WriteLine("Extracting Files.");
 
-            Stopwatch watch = Stopwatch.StartNew();
+            //Stopwatch watch = Stopwatch.StartNew();
 
             for(int i = 0; i < archive._fileInfoTable.Length; i++)
             {
@@ -46,10 +46,10 @@ namespace archiveTool
                 File.WriteAllBytes(DesiredPath, archive.read(archive._fileInfoTable[i]));
             }
             archive.close();
-            watch.Stop();
+            //watch.Stop();
 
             Console.WriteLine("Archive extraction complete!");
-            Console.WriteLine("Time elapsed: {0}s", watch.Elapsed.TotalSeconds);
+            //Console.WriteLine("Time elapsed: {0}s", watch.Elapsed.TotalSeconds);
         }
 
         static void ProcessWrite(string Directory, string ArchivePath, int CompressionMode)
