@@ -1,8 +1,7 @@
 {
   "profiles": {
     "archiveTool": {
-      "commandName": "Project",
-      "commandLineArgs": "-i\\\"C:/Games/Crash Bandicoot N Sane Trilogy/Crash Bandicoot N Sane Trilogy/archives/L101_NSanityBeach.pak\\\" -pTest/IGA"
+      "commandName": "Project"
     }
   }
 }
