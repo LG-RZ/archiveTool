@@ -34,3 +34,5 @@ Run the application in CMD and use the arguments listed below.
 * LG-RZ
 * AdventureT
 * DTZxPorter
+
+If you use this in a project please credit these people
