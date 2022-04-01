@@ -31,5 +31,6 @@ Run the application in CMD and use the arguments listed below.
 `archiveTool.exe -dFiles -pNewIGA.pak -c2`
 
 ## Credits
+* LG-RZ
 * AdventureT
 * DTZxPorter
